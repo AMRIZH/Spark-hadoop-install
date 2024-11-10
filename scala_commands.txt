@@ -1,0 +1,11 @@
+1. open csv file
+val data = spark.read.option("header", "true").csv("C:/AMRI/Kuliah/Data science/spark program/Online Retail.csv")
+
+2. define variable itemCounts 
+val itemCounts = data.groupBy("InvoiceNo").count()
+
+3. preview the variable
+itemCounts.show()
+
+4. export the variable as .csv
+itemCounts.write.option("header", "true").csv("C:/AMRI/Kuliah/Data science/spark program/output")
