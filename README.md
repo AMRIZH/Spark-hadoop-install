@@ -16,11 +16,11 @@ Follow these steps to set up Apache Spark with Hadoop on a Windows system.
    - Download Apache Spark from [Apache Spark Downloads](https://spark.apache.org/downloads.html).
    - Extract the Spark folder and move it to `C:/`. Rename this folder to `spark`.
 
-### 4. Download and Set Up Apache Hadoop
+### 4. Download and Set Up Apache Hadoop (version 3.4)
    - Download Hadoop from [Hadoop Downloads](https://hadoop.apache.org/releases.html). Choose the binary version.
    - Extract the Hadoop folder and move it to `C:/`. Rename this folder to `hadoop`.
 
-### 5. Download Winutils
+### 5. Download Winutils (choose version 3.3 or later)
    - Download the necessary `winutils` binaries from [kontext-tech/winutils GitHub](https://github.com/kontext-tech/winutils).
    - Place the `winutils.exe` file in `C:\hadoop\bin`.
 
