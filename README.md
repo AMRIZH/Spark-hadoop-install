@@ -1,7 +1,3 @@
-Here's a tidied-up version of your README:
-
----
-
 # Installing Apache Spark with Hadoop on Windows
 
 Follow these steps to set up Apache Spark with Hadoop on a Windows system.
@@ -106,7 +102,3 @@ Follow these steps to set up Apache Spark with Hadoop on a Windows system.
       ```scala
       itemCounts.write.option("header", "true").csv("C:/Amri/HadoopSpark/Spark-hadoop-install/output")
       ```
-
----
-
-This version is streamlined and organized with consistent formatting for easier reading and navigation.
