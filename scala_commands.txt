@@ -1,5 +1,5 @@
 1. open csv file
-val data = spark.read.option("header", "true").csv("C:/AMRI/Kuliah/Data science/spark program/Online Retail.csv")
+val data = spark.read.option("header", "true").csv("C:/Amri/HadoopSpark/Spark-hadoop-install/Online Retail.csv")
 
 2. define variable itemCounts 
 val itemCounts = data.groupBy("InvoiceNo").count()
@@ -8,4 +8,4 @@ val itemCounts = data.groupBy("InvoiceNo").count()
 itemCounts.show()
 
 4. export the variable as .csv
-itemCounts.write.option("header", "true").csv("C:/AMRI/Kuliah/Data science/spark program/output")
+itemCounts.write.option("header", "true").csv("C:/Amri/HadoopSpark/Spark-hadoop-install/output")
